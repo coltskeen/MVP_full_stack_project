@@ -10,20 +10,21 @@ const pool = new Pool({
 //MIDDLEWARE
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+app.use(express.static("public"));
 
 // TEST CONNECTION TO DATABASE
 // pool.query('SELECT * FROM quotes', (err, result) => {
 //     console.log(result.rows); 
 // });
 
-app.get("/quotes/:id", (req, res) => {
-    let id = req.params.id;
+app.get("/quotes", (req, res) => {
+    // let id = req.params.id;
 
     pool
-        .query("SELECT * FROM quotes WHERE id=$1", [id])
+        .query("SELECT * FROM quotes;")
         .then((result) => {
             if(result.rows.length === 0) return res.sendStatus(404);
-            else return res.status(200).send(result.rows[0]);
+            else return res.status(200).send(result.rows);
         })
         .catch((err) => res.sendStatus(500));
 });
