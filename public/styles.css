@@ -1,0 +1,39 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #1c1b1a;
+    color: white;
+    font-size: 150%;
+    font-family: 'Work Sans', sans-serif;
+    height: 75px;
+}
+
+.navHeader {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#gitIcon {
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 15px;
+}
+
+.moreInfo {
+    margin: 25px 0px 50px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: grey;
+    border-radius: 5%;
+}

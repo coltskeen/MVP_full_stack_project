@@ -8,24 +8,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="app.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navBar">
-        <h5 class="">The Tolkien Daily</h5>
-        <nav class="">
-          <a class="gitHub" href="https://github.com/coltskeen/MVP_full_stack_project">GitHub</a>
-          <a class="https://www.linkedin.com/in/coltskeen/" href="">LinkedIn</a>
+        <h5 class='navHeader'>The Tolkien Daily</h5>
+        <nav>
+          <a class="gitHub" href="https://github.com/coltskeen/MVP_full_stack_project"><img id="gitIcon" src="pictures/GitHub-Mark-Light-32px.png" border="0" /></a>
         </nav>
     </div>
-    <h1>Daily Tolkien Inspiration</h1>
-    <div class="container">
-        <div class="quote"></div>
-        <div class="citation"></div>
-    </div>
-    <button class="button">New Quote</button>
+    <div class="content">
+        <div>
+            <h1 class="contentHeader">Daily Tolkien Inspiration</h1>
+            <div class="container">
+                <div class="quote"></div>
+                <div class="citation"></div>
+            </div>
+            <button class="button">New Quote</button>
+        </div>
+        <div>
+            <aside class="moreInfo">
+                <img src="pictures/theOneRing.jpeg"/>
+                <p>
+                    TEXT GOES HERE!
+                </p>
+            </aside>
+        </div>
+    </div>  
     <footer>
         <nav>
             <a href="/about.html">About Us</a>
+            <a class="linkedIn" href="https://www.linkedin.com/in/coltskeen/"><img src="pictures/LI-In-Bug.png" border="0"/></a>
             <a href="mailto:thetolkiendaily@gmail.com">Contact Us</a>
             <a href="/disclaimer.html">Disclaimer</a>
         </nav>
