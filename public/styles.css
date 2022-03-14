@@ -38,6 +38,11 @@ body{
 
 .quote {
     margin-bottom: 5px;
+    font-style: italic;
+}
+
+.citation {
+    font-weight: 900;
 }
 
 .button {
