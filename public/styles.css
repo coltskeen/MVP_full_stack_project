@@ -28,6 +28,32 @@ body{
     margin: 50px 15px;
 }
 
+.contentHeader {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote {
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #7a7a7a; 
+    border: solid;
+    border-color: #61440a;
+    border-width: 1px;
+    color: white;
+    padding: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
 .moreInfo {
     margin: 25px 0px 50px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -36,4 +62,10 @@ body{
     border-width: 10px;
     border-color: grey;
     border-radius: 5%;
+}
+
+.containerText{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
