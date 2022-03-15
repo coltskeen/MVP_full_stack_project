@@ -44,7 +44,7 @@ body{
 }
 
 .quote {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-style: italic;
 }
 
@@ -66,7 +66,7 @@ body{
     margin: 5px;
 }
 .button:hover {
-    padding: 12px 27px;
+    background-color:#335752;
     cursor: pointer;
 }
 
@@ -79,12 +79,17 @@ body{
     border-width: 10px;
     border-color: grey;
     border-radius: 5%;
+    width: 300px;
 }
 
 .containerText{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.quoteContainer {
+    margin-top: 50px;
 }
 
 .fooBar {
@@ -101,6 +106,7 @@ body{
 .fooNav {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     margin-right: 25px;
 }
 
@@ -119,4 +125,51 @@ a:hover {
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quoteContainer {
+        margin: 10px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .quoteContainer {
+        margin: 10px;
+        width: 300px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .quote::-webkit-scrollbar {
+        width: 10px;              
+    }
+      
+    .quote::-webkit-scrollbar-track {
+        background: #1c1b1a;       
+    }
+      
+    .quote::-webkit-scrollbar-thumb {
+        background-color: rgba(76, 76, 118, 0.509);    
+        border-radius: 20px;      
+        border: 3px solid rgb(71, 77, 80);  
+    }
 }
