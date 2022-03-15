@@ -5,28 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="pictures/hobbitton.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navBar">
-        <h5 class="">The Tolkien Daily</h5>
+        <h5 class="navHeader">The Tolkien Daily</h5>
         <nav class="">
-          <a class="" href="">GitHub</a>
-          <a class="" href="">LinkedIn</a>
+            <a class="gitHub" href="https://github.com/coltskeen/MVP_full_stack_project"><img id="gitIcon" src="pictures/GitHub-Mark-Light-32px.png" border="0" /></a>
         </nav>
     </div>
-    <h1>About Us</h1>
-    <div class="container">
-        <div>Oops! This page hasn't been completed yet. Come back later!</div>
-        <a class="linkedIn" href="https://www.linkedin.com/in/coltskeen/"><img src="pictures/LI-In-Bug.png" border="0"/></a>
+    <div>
+        <h1 id="aboutMeHeader">About Me</h1>
     </div>
-    <footer>
-        <nav>
-            <a href="/">Home</a>
-            <a href="mailto:thetolkiendaily@gmail.com">Contact Us</a>
-            <a href="">Disclaimer</a>
+    <div class="content">
+        <div class="aboutContainer">
+            <div class="aboutContent">
+                <p><b>Hiya! My name is Colt.</b></p>
+                <br>
+                <p>I am a Full Stack Software Engineer that loves building web applications in JavaScript using tools 
+                    such as Node.js, Express, jQuery, SQL (SQLite and PosgreSQL), APIs, and other external libraries like Three.js. 
+                    I am a lover of Tolkien's works (though not near as a much a nerd in it as I wish!), 
+                    and with this site I've combined two things that I am passionate about:
+                </p> 
+            </div>
+            <div class=aboutPhoto>
+                <ol class="rmPMargin" id="aboutList">
+                    <li><i>Building simple yet elegant software</i> &#128421;</li>
+                    <li><i>Enjoying great stories </i> &#128218;</li>
+                </ol>
+            </div> 
+            <div class="aboutContent">
+                <p class="rmPMargin">
+                    I do have some other skills but 'nough about me...
+                </p>
+                <p class="rmPMargin">
+                    Go read my Linked-In profile if you like that sort of thing. &#9721; <a class="linkedIn" href="https://www.linkedin.com/in/coltskeen/"><img src="pictures/LI-Logo.png"/></a>
+                </p>
+            </div>
+        </div>
+        <div>
+            <aside class="moreInfo">
+                <img src="./pictures/renfair-photo.jpeg"/>
+                <p class="containerText">
+                    <i>Me and my family attending the Maryland Renaissance Festival</i>
+                </p>
+            </aside>
+        </div> 
+    </div>
+    <footer class="fooBar">
+        <nav class="fooNav">
+            <a class="fooA" href="/">Home</a>
+            <a class="fooA" href="mailto:thetolkiendaily@gmail.com">Contact Me</a>
+            <a class="fooA" href="/disclaimer.html">Disclaimer</a>
         </nav>
     </footer>
 </body>
