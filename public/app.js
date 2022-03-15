@@ -5,7 +5,7 @@ const $newQuoteBtn = $(".button");
 //LOADS RANDOM DAILY QUOTE TO THE PAGE ON PAGE LOAD
 $.get('/quotes', (data) => {
     console.log(data);
-    let randomIndex = Math.floor(Math.random() * 11);
+    let randomIndex = Math.floor(Math.random() * 307);
     
     let $quoteDiv = $(".quote");
     let $citation  = $(".citation");
@@ -20,7 +20,7 @@ $newQuoteBtn.on("click", () => {
     console.log("clicked!");
     $.get('/quotes', (data) => {
         console.log(data);
-        let randomIndex = Math.floor(Math.random() * 11);
+        let randomIndex = Math.floor(Math.random() * 307);
         
         let $quoteDiv = $(".quote");
         let $citation  = $(".citation");
