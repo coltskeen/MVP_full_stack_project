@@ -1,5 +1,6 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
 }
 
 .navBar {
@@ -10,6 +11,7 @@ body{
     font-size: 150%;
     font-family: 'Work Sans', sans-serif;
     height: 75px;
+    width: 100%;
 }
 
 .navHeader {
@@ -58,6 +60,10 @@ body{
     font-size: 16px;
     margin: 5px;
 }
+.button:hover {
+    padding: 12px 27px;
+    cursor: pointer;
+}
 
 .moreInfo {
     margin: 25px 0px 50px 15px;
@@ -73,4 +79,37 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.fooBar {
+    display: flex;
+    justify-content: flex-end; 
+    background-color: #335752;
+    color: white;
+    font-size: 150%;
+    font-family: 'Work Sans', sans-serif;
+    height: 75px;
+    width: 100%;
+}
+
+.fooNav {
+    display: flex;
+    justify-content: center;
+}
+
+.fooA {
+    margin: 25px 10px; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
