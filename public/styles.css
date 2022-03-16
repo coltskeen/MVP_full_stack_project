@@ -142,6 +142,22 @@ body{
     text-align: center;
 }
 
+#disclaimerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    /* height: 200px; */
+    /* margin: 0px; */
+}
+
+#disclaimerBody {
+    text-align: center;
+    height: 500px;
+    margin: 20px 40px;
+    overflow: auto;
+}
+
 .fooBar {
     display: flex;
     justify-content: space-evenly; 
