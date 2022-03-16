@@ -25,6 +25,7 @@ body{
 #gitIcon {
     margin-top: 25px;
     margin-right: 20px;
+    margin-left: 15px;
 }
 
 .content {
@@ -163,6 +164,11 @@ body{
     margin: 25px 20px; 
 }
 
+.fooB {
+    margin: 25px 20px;
+    font-size: 10px; 
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -180,6 +186,7 @@ a:hover {
     .content {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .quoteContainer {
@@ -187,13 +194,21 @@ a:hover {
         width: 300px;
     }
 
+    .aboutContainer {
+        margin: 10px;
+        width: 450px;
+        height: 200px;
+        overflow: auto;
+    }
+
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     .content {
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        align-items: center;
+        /* margin: 10px; */
     }
 
     .quoteContainer {
@@ -213,6 +228,69 @@ a:hover {
     a {
         font-size: 14px;
         font-weight: 900;
+    }
+
+    .quote::-webkit-scrollbar {
+        width: 10px;              
+    }
+      
+    .quote::-webkit-scrollbar-track {
+        background: #1c1b1a;       
+    }
+      
+    .quote::-webkit-scrollbar-thumb {
+        background-color: rgba(76, 76, 118, 0.509);    
+        border-radius: 20px;      
+        border: 3px solid rgb(71, 77, 80);  
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .quoteContainer {
+        margin: 10px;
+        width: 250px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .aboutContainer {
+        margin: 0px;
+        width: 250px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .moreInfo {
+        position: static;
+        margin: 25px 0px 50px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        border-style: solid;
+        border-width: 10px;
+        border-color: grey;
+        border-radius: 5%;
+        width: 230px;
+    }
+
+    .adjustPhoto {
+        width: 230px;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .fooA, .fooB {
+        font-size: 10px;
+        margin: 25px 10px;
     }
 
     .quote::-webkit-scrollbar {
