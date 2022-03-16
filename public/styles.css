@@ -138,6 +138,11 @@ body{
     margin-top: 0px;
 }
 
+.adjustPhoto {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
 .center-p {
     text-align: center;
 }
