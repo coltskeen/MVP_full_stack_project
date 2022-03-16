@@ -1,9 +1,23 @@
+html, body{
+    height: 100%; 
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+}
+
 body{
     font-family: 'Work Sans', sans-serif;
     margin: 0px;
 }
 
-
+    
 
 
 .navBar {
@@ -165,7 +179,8 @@ body{
 
 .fooBar {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+
     background-color: #335752;
     color: white;
     font-size: 150%;
