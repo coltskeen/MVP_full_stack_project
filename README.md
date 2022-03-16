@@ -1,6 +1,6 @@
 <h1 align="center">The Tolkien Daily</h1>
 
-![Image](pictures/READMEpic.png)
+![Image](./public/pictures/READMEpic.png)
 
 
 ## Project Objective 
