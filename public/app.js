@@ -1,4 +1,4 @@
-console.log("Loaded");
+console.log("Testing");
 
 const $newQuoteBtn = $(".button");
 
