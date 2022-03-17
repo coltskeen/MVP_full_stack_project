@@ -17,7 +17,7 @@
 
 Do you want inspiration everyday? Do you love Tolkien's works and believe in their transformative power to orient your soul towards what is good? Well then you've come to the right place! This simple web application delivers daily inspirational quotes to refresh your soul. More features will be coming to include: The Greatest Adventure Mini Game and A Walk Down Tolkien Lane!
 
-The Tolkien Daily: https://tolkien-inspiration.herokuapp.com/
+The Tolkien Daily: https://thetolkiendaily.herokuapp.com/
 
 ## Application Requirements
 
