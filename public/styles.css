@@ -108,7 +108,7 @@ body{
 
 .moreInfo {
     position: static;
-    margin: 25px 0px 50px 15px;
+    margin: 25px 0px 50px 10px;
     box-shadow:  8px 8px 16px #cccccc,
                 -8px -8px 16px #ffffff;
     text-align: center;
@@ -183,21 +183,23 @@ body{
 }
 
 .adjustPhoto {
-    height: 225px;
-    width: 250px;
+    height: 240px;
+    width: 275px;
     border-radius: 50px;
     box-shadow:3px 3px 8px #b1b1b1,
                 -3px -3px 8px #ffffff;
-    margin: 20px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 .aboutPhoto {
-    height: 190px;
-    width: 250px;
+    height: 210px;
+    width: 275px;
     border-radius: 50px;
     box-shadow:3px 3px 8px #b1b1b1,
                 -3px -3px 8px #ffffff;
-    margin: 20px;  
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 .center-p {
