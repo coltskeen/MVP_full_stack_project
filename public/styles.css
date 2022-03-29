@@ -18,7 +18,9 @@ body{
 }
 
     
-
+.titlePic {
+    height: 50px;
+}
 
 .navBar {
     display: flex;
@@ -32,7 +34,7 @@ body{
 }
 
 .navHeader {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -292,6 +294,13 @@ a:hover {
         flex-direction: column;
         align-items: center;
         margin: 0px;
+    }
+
+    .titlePic {
+        height: 35px;
+    }
+    .navHeader {
+        margin-top: 20px;
     }
 
     .quoteContainer {
